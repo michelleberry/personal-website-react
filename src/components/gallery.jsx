@@ -3,6 +3,7 @@ import {useParams, Link} from 'react-router-dom';
 import { Container, Row, Col } from 'react-bootstrap';
 
 export function PieceDetail() {
+    window.scrollTo(0, 0);
     const { piece_id } = useParams();
     const { yr } = useParams();
     const piece = getPiece(piece_id, yr)
@@ -20,7 +21,7 @@ export function PieceDetail() {
                     <h5>Medium:</h5>
                     <p>{piece.medium}</p>
                     <br/>
-                    <a href={back_linky} class="btn btn-outline-secondary"> &lt;&lt; Back to Gallery - Artworks {yr}</a>
+                    <Link to={back_linky} class="btn btn-outline-secondary"> &lt;&lt; Back to Gallery - Artworks {yr}</Link>
                     </Container>
                 </Col>
                 <Col>
@@ -49,10 +50,9 @@ export function Gallery() {
                                 <img class="card-img-top" src={piece.image_url} alt={piece.title}/>
                                 <div class="card-body">
                                     <h5 class="card-title">{piece.title}</h5>
-                                    <a href={linky}
-                                    class="btn btn-outline-secondary">
+                                    <Link to={linky} class="btn btn-outline-secondary">
                                         View Description & Details »
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                         </div>
