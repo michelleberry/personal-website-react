@@ -1,5 +1,5 @@
 import { getCollection, getPiece } from './galleryCollections';
-import {useParams} from 'react-router-dom';
+import {useParams, Link} from 'react-router-dom';
 import { Container, Row, Col } from 'react-bootstrap';
 
 export function PieceDetail() {
@@ -110,61 +110,61 @@ export function ChooseGallery() {
                 <div class="row justify-content-center">
                     <div class="col">
                         <ul class="nav justify-content-center">
-                            <form action='view_gallery/2018'>
-                                <button class="btn btn-link" id = "foo"><img class="img" 
+                            <Link to='/view_gallery/2018'>
+                                <img class="img" 
                                 src="https://media.graphassets.com/ydXoBYf5R1ODY0I8rsIr" 
                                 onMouseOver={e => (e.currentTarget.src ="https://media.graphassets.com/o5CpDiTPTS5OXbPc4qPS")}
                                 onMouseOut={e=> (e.currentTarget.src = "https://media.graphassets.com/ydXoBYf5R1ODY0I8rsIr")} 
-                                alt="" width="100%"/></button>
-                            </form>
+                                alt="" width="100%"/>
+                            </Link>
                         </ul>
                     </div>
 
                     <div class="col">
                         <ul class="nav justify-content-center">
-                            <form action='view_gallery/2019'>
-                                <button class="btn btn-link" id = "foo"><img class="img" 
+                            <Link to='/view_gallery/2019'>
+                                <img class="img" 
                                 src="https://media.graphassets.com/ydXoBYf5R1ODY0I8rsIr" 
                                 onMouseOver={e => (e.currentTarget.src ="https://media.graphassets.com/o5CpDiTPTS5OXbPc4qPS")}
                                 onMouseOut={e=> (e.currentTarget.src = "https://media.graphassets.com/ydXoBYf5R1ODY0I8rsIr")} 
-                                alt="" width="100%"/></button>
-                            </form>
+                                alt="" width="100%"/>
+                            </Link>
                         </ul>
                     </div>
 
                     <div class="col">
                         <ul class="nav justify-content-center">
-                            <form action='view_gallery/2020'>
-                                <button class="btn btn-link" id = "foo"><img class="img" 
+                            <Link to='/view_gallery/2020'>
+                                <img class="img" 
                                 src="https://media.graphassets.com/ydXoBYf5R1ODY0I8rsIr" 
                                 onMouseOver={e => (e.currentTarget.src ="https://media.graphassets.com/o5CpDiTPTS5OXbPc4qPS")}
                                 onMouseOut={e=> (e.currentTarget.src = "https://media.graphassets.com/ydXoBYf5R1ODY0I8rsIr")} 
-                                alt="" width="100%"/></button>
-                            </form>
+                                alt="" width="100%"/>
+                            </Link>
                         </ul>
                     </div>
 
                     <div class="col">
                         <ul class="nav justify-content-center">
-                            <form action='view_gallery/2021'>
-                                <button class="btn btn-link" id = "foo"><img class="img" 
+                            <Link to='/view_gallery/2021'>
+                                <img class="img" 
                                 src="https://media.graphassets.com/ydXoBYf5R1ODY0I8rsIr" 
                                 onMouseOver={e => (e.currentTarget.src ="https://media.graphassets.com/o5CpDiTPTS5OXbPc4qPS")}
                                 onMouseOut={e=> (e.currentTarget.src = "https://media.graphassets.com/ydXoBYf5R1ODY0I8rsIr")} 
-                                alt="" width="100%"/></button>
-                            </form>
+                                alt="" width="100%"/>
+                            </Link>
                         </ul>
                     </div>
 
                     <div class="col">
                         <ul class="nav justify-content-center">
-                            <form action='view_gallery/2022'>
-                                <button class="btn btn-link" id = "foo"><img class="img" 
+                            <Link to='/view_gallery/2022'>
+                                <img class="img" 
                                 src="https://media.graphassets.com/ydXoBYf5R1ODY0I8rsIr" 
                                 onMouseOver={e => (e.currentTarget.src ="https://media.graphassets.com/o5CpDiTPTS5OXbPc4qPS")}
                                 onMouseOut={e=> (e.currentTarget.src = "https://media.graphassets.com/ydXoBYf5R1ODY0I8rsIr")} 
-                                alt="" width="100%"/></button>
-                            </form>
+                                alt="" width="100%"/>
+                            </Link>
                         </ul>
                     </div>
                 </div>
