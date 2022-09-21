@@ -25,8 +25,8 @@ export const art2018 = [
     {
         id: '0',
         title: "Mac Demarco",
-        description: "",
-        medium: "",
+        description: "A portrait I made of Mac Demarco because I was excited to go to his concert.",
+        medium: "Holbein Acryla Gouache",
         image_url: "https://media.graphassets.com/HokI9JwYSgKLPZw83Fwg"
     },
     {
