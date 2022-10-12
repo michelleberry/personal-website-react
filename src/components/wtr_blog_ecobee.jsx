@@ -1,5 +1,5 @@
 import React from 'react';
-import {useParams} from 'react-router-dom';
+import {useParams, Link} from 'react-router-dom';
 import Carousel from 'react-bootstrap/Carousel'
 
 function Header() {
@@ -14,19 +14,19 @@ function Header() {
                   <br/>
                   <br/>
                     <div class="nav-item">
-                      <a class="nav-link" aria-current="page" href='1'><p class="text-right">Introduction</p></a>
+                      <Link to='/wtr_blog/2/1' class="nav-link"><p class="text-right">Introduction</p></Link>
                     </div>
                     <li class="nav-item">
-                      <a class="nav-link" href='2'><p className="text-right">About ecobee</p></a>
+                      <Link to='/wtr_blog/2/2' class="nav-link"><p class="text-right">About Ecobee</p></Link>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href='3'><p class="text-right">Job Description</p></a>
+                      <Link to='/wtr_blog/2/3' class="nav-link"><p class="text-right">Job Description</p></Link>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href='4'><p class="text-right">Learning Goals</p></a>
+                      <Link to='/wtr_blog/2/4' class="nav-link"><p class="text-right">Learning Goals</p></Link>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href='5'><p class="text-right">Conclusion & Acknowledgements</p></a>
+                      <Link to='/wtr_blog/2/5' class="nav-link"><p class="text-right">Conclusion and Acknowledgements</p></Link>
                     </li>
                 </ul>
               </div>
