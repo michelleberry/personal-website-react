@@ -17,9 +17,10 @@ export default function Mynavbar() {
                   <Nav.Link href="https://github.com/michelleberry" className="nav-link-one">GitHub</Nav.Link>
                   <Nav.Link as={Link} to='/resume' className="nav-link-two">Resume</Nav.Link>
                   <Nav.Link href="https://www.linkedin.com/in/michelle-berry-b43b47201/" className="nav-link-one">LinkedIn</Nav.Link>
-                  <NavDropdown title={<span className="text-dark-red">Work Term Blogs</span>} id="basic-nav-dropdown">
+                  <NavDropdown title={<span className="text-dark-red">Co-op Blogs</span>} id="basic-nav-dropdown">
                     <NavDropdown.Item as={Link} to='/wtr_blog/1/1'>Summer-Fall 2021</NavDropdown.Item>
                     <NavDropdown.Item as={Link} to='/wtr_blog/2/1'>Summer 2022</NavDropdown.Item>
+                    <NavDropdown.Item as={Link} to='/wtr_blog/3/1'>Winter 2023</NavDropdown.Item>
                   </NavDropdown>
                   <Nav.Link as={Link} to='/galleries' className="nav-link-one">Art Gallery</Nav.Link>
               </Nav>
