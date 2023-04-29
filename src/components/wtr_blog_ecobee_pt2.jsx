@@ -162,7 +162,7 @@ function BlogContent() {
                     and the second time around I was much more prepared, had practiced more, and had a much better 
                     outline and understanding of what I was supposed to present. I am proud of that experience because
                      although I failed really badly at first I redeemed myself and I think used my mistake to improve
-                      on my ultimate goal of improving at technical oral communication.
+                       on my ultimate goal of improving at technical oral communication.
                   </p>
 
                   <br></br>
