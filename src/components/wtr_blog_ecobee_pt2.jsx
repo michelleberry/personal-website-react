@@ -1,6 +1,6 @@
 import React from 'react';
 import {useParams, Link} from 'react-router-dom';
-import Carousel from 'react-bootstrap/Carousel'
+// import Carousel from 'react-bootstrap/Carousel'
 
 function Header() {
     return (

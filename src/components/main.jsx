@@ -5,6 +5,7 @@ import { ChooseGallery, Gallery, PieceDetail } from './gallery.jsx';
 import Home from './home.jsx';
 import Resume from './resume.jsx';
 import WorkTermReport from './wtr_blog.jsx';
+import FiberArtGallery from './fartgallery.jsx';
 
 const Main = () => {
   return (
@@ -21,6 +22,7 @@ const Main = () => {
         <Route path=":yr" element={<Gallery/>}>
         </Route>
       </Route>
+      <Route exact path='/fartgalleries' element={<FiberArtGallery/>}></Route>
       <Route exact path='/view_piece'>
         <Route path=":yr">
           <Route path=":piece_id" element={<PieceDetail/>}></Route>
